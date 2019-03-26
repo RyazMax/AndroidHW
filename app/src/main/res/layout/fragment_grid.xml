@@ -20,7 +20,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_centerHorizontal="true"
-        android:columnCount="3">
+        android:columnCount="@integer/column_count">
         <android.support.v7.widget.RecyclerView
             android:id="@+id/my_list"
             android:layout_width="match_parent"
